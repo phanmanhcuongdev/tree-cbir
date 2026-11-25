@@ -1,0 +1,2 @@
+Command: .\.venv\Scripts\python.exe -m pip check
+Result: No broken requirements found.

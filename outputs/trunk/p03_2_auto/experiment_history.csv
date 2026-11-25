@@ -1,0 +1,6 @@
+iteration,method,usable,mean_iou,median_seconds,marked_reliable,unsuitable_marked_reliable,decision
+baseline,baseline,1,0.265115,1.91715,0,0,comparison
+01,base_priority,3,0.404905,1.93395,2,0,retain_as_primary_stage
+02,bands,0,0.380757,0.83875,1,1,reject_standalone
+03,hybrid,4,0.621454,2.993,2,0,freeze
+04,hybrid_structural,4,0.659012,2.8114,2,0,reject_regression_101

@@ -1,0 +1,17 @@
+{
+  "method": "hybrid",
+  "source_iteration": "iteration_03",
+  "selection": "Four usable masks, zero unsuitable masks marked reliable, and both previously successful images retained. Iteration 04 ties on usable count and reduces 101.jpg recall below the provisional floor.",
+  "candidate_widths_px": [32, 64, 112, 176],
+  "candidate_heights_px": [180, 300, 460, 640],
+  "candidate_stride_px": 32,
+  "candidate_weights": [0.25, 0.20, 0.15, 0.25, 0.15],
+  "coarse_resolution_max_px": 144,
+  "paired_path_minimum_end_fraction": 0.59,
+  "paired_path_minimum_base_agreement": 0.75,
+  "paired_path_minimum_axis_agreement": 0.55,
+  "band_resolution_height_px": 256,
+  "grabcut_iterations": 2,
+  "grabcut_shoulder_fraction": 0.42,
+  "independent_sampling": "Sort unique standardization candidate paths after excluding all six calibration paths, then take the midpoint of each of 12 equal index strata. Frozen before processing."
+}

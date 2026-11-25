@@ -1,0 +1,194 @@
+[
+  {
+    "path": "1.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.4223,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "10.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.2963,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "100.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.421,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "101.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.3562,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "102.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.3386,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "103.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.4304,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "104.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.434,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "105.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.5476,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "106.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.449,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "107.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.3919,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "108.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.5285,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  },
+  {
+    "path": "109.jpg",
+    "format": "JPEG",
+    "original_dimensions": [
+      768,
+      1024
+    ],
+    "output_shape": [
+      1024,
+      768,
+      3
+    ],
+    "dtype": "uint8",
+    "duration_seconds": 0.5174,
+    "warning": "Generic threshold demonstration mask; not tree segmentation."
+  }
+]

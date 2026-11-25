@@ -1,0 +1,17 @@
+{
+  "method": "hybrid",
+  "images": [
+    "1.jpg",
+    "10.jpg",
+    "100.jpg",
+    "101.jpg",
+    "102.jpg",
+    "103.jpg"
+  ],
+  "reference_sha256": "72006ace9b9a522c4c12afe5ff06a9f1e190479db0d8f5fffa5b81667b4844b3",
+  "median_seconds": 2.9930000000000003,
+  "reliable": 2,
+  "usable": 4,
+  "mean_iou": 0.6214538885176153,
+  "unreliable_masks_marked_reliable": 0
+}

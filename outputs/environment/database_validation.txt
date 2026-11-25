@@ -1,0 +1,3 @@
+Commands: `docker compose config --quiet`, `docker compose up -d`, `docker compose ps`, Python integration test, and temporary-table SQL checks.
+
+Result: PASS. `tree-cbir-postgres-1` is healthy on `127.0.0.1:5432`, using `pgvector/pgvector:pg17` (image digest `sha256:b513c48566e4777cd3370451400000c78eda6a08131d68f4c31d4a76f27bd8fd`). PostgreSQL is 17.12 and pgvector is 0.8.7. Temporary `vector(38)` data was inserted and retrieved through psycopg + pgvector. SQL verified L2 (`<->`), L1 (`<+>`), cosine (`<=>`) and inner product (`<#>`). The integration test verifies exact Top-5 rank `[0, 1, 2, 3, 4]` from six known vectors; no persistent test records were created.

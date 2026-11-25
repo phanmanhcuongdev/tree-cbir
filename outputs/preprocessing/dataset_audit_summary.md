@@ -1,0 +1,12 @@
+# Dataset audit
+
+- total_local_files: 507
+- successfully_decoded_images: 507
+- failed_image_decodes: 0
+- non_image_files: 0
+- correct_resolution: 470
+- correct_aspect_ratio: 485
+- duplicate_content_groups: 0
+- unique_compliant_images: 470
+- total_dataset_size_bytes: 174188022
+- format_distribution: {'JPEG': 507}

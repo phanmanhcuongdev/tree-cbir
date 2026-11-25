@@ -1,0 +1,6 @@
+{
+  "method": "hybrid",
+  "reproduce": ".venv/Scripts/python.exe scripts/experiment_trunk.py iteration_03 --method hybrid",
+  "source_snapshot": "../experiment_source_snapshot.zip",
+  "reference": "../references/annotations.json"
+}

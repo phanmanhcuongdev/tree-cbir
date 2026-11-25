@@ -1,0 +1,13 @@
+# P03.2 autonomous experiments
+
+Result: PARTIAL. Four iterations completed. Calibration acceptance was 4/6 against a target of 5/6. Independent qualitative review found 3 usable, 5 partial, and 4 failed against a target of 9/12 usable. These ratings are the agent's contact-sheet inspection without expert masks or owner acceptance. Independent output statuses were 2 reliable and 10 uncertain. Both reliable independent outputs were rated usable.
+
+The calibration polygons were drawn on original images before baseline scoring. The reference SHA-256 is recorded in every run. IoU, Dice, precision and recall are development measures against approximate polygons. Landmark checks sample interior polygon rows using a 1.5% short-side neighborhood (12 pixels at dataset resolution). Base error is distance to the center of the lowest reference row. Blank distances denote missing predictions.
+
+The original baseline scored 1/6 usable and mean IoU 0.265. Base-prioritized paired tracking scored 3/6 and 0.405. Standalone dynamic band tracking scored 0/6 and 0.381, including a reliable detection rated unsuitable. The selected hybrid scored 4/6 and 0.621 with zero unsuitable reliable detections. Structural trimming scored 4/6 and 0.659, improving 10.jpg but dropping 101.jpg below the recall threshold. The hybrid preserved 101.jpg and improved 103.jpg. The chosen method retains sufficiently supported paired traces and otherwise uses two GrabCut iterations inside a soft corridor traced by bilateral Lab contrast and linked bands. Pixels on unsupported rows remain background.
+
+The selected calibration masks for 1.jpg, 100.jpg, 101.jpg and 103.jpg pass all three provisional thresholds. 10.jpg includes upper branch pixels and 102.jpg misses much of the lower trunk. Both are flagged uncertain. On independent images the main failures are trunks wider than the tracked band, wrong sides of the canopy, and short trunks obscured by dense colored foliage.
+
+Baseline median processing time was 1.92 seconds per calibration image. The selected hybrid measured 2.99 seconds on calibration and 3.30 seconds on the independent subset. These are single-run local measurements, excluding image load and rendering. Full pytest with PostgreSQL/pgvector passed 26 tests. Ruff lint, Ruff format, and git diff --check passed.
+
+All variants are selectable through the experiment runner using each iteration's config. The source snapshot archive contains all variants and the runner. Independent filenames were sampled after freezing iteration 03 and were excluded from calibration. The independent CSV joins the numerical diagnostics with the separate qualitative review. Future evaluation should use a new holdout if these independent examples inform further development.
